@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+  height: 100%;
+  width: 100%;
+}
+
+.hero{
+  padding-top: 6vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  text-align: center;
+}
+
+.heading h1{
+  font-size: 6vh;
+  padding-bottom: 7vh;
+}
+
+span{
+  display: block;
+}
+
+.color-box{
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.button{
+  height: 15vh;
+  width: 15vh;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+#gray{
+  background-color: gray;
+}
+
+#white{
+  background-color: #fff;
+}
+
+#blue{
+  background-color: blue;
+}
+
+#yellow{
+  background-color: yellow;
+}
+
+.footer{
+  padding-top: 5vh;
+}
